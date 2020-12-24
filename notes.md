@@ -32,3 +32,15 @@ python prepare_img.py PNG_FOLDER
 We can generate annotations using the [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/). When assigning the region attributes, their needs to be a *class_id* attribute set for every lego. The id actually corresponds to the class name which can be found using the mapping below. Annotations can be exported in .json. Note that the annotation format changes (regions goes from a dictionary to a list) between version 1.x and 2.x.
 
 ![Class ID to lego object map](images/classes/class_diagram.png)
+
+# Results
+
+The following pictures show the inference results of model taken with an iPhone.
+
+Image IMG_1777.png
+![](images/inference_1777.png)
+
+Image IMG_1778.png
+![](images/inference_1778.png)
+
+We can see that the classification results in IMG_1778.png are extremely off.
