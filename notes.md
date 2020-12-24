@@ -38,9 +38,11 @@ We can generate annotations using the [VGG Image Annotator](https://www.robots.o
 The following pictures show the inference results of model taken with an iPhone.
 
 Image IMG_1777.png
+
 ![](images/inference_1777.png)
 
 Image IMG_1778.png
+
 ![](images/inference_1778.png)
 
 We can see that the classification results in IMG_1778.png are extremely off.
