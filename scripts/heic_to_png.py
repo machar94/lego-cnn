@@ -7,19 +7,15 @@ import os
 
 from wand.image import Image
 
-#    SourceFolder="K:/HeicFolder"
-#    TargetFolder="K:/JpgFolder"
 
-#    for file in os.listdir(SourceFolder):
-#       SourceFile=SourceFolder + "/" + file
-#       TargetFile=TargetFolder + "/" + file.replace(".HEIC",".JPG")
-    
-#       img=Image(filename=SourceFile)
-#       img.format='jpg'
-#       img.save(filename=TargetFile)
-#       img.close()
-    
 def convert(source, dest):
+    """
+    Convert from HEIC format to PNG
+    
+    args:
+        source: folder with HEIC photos
+        dest: destination of converted photos
+    """
     
     # Create the destination folder
     try:

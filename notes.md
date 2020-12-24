@@ -15,3 +15,4 @@ Need to install the following package in order to be able to use the opencv imsh
 pip install opencv-python-headless
 ```
 
+iPhone images are taken with a size 3024 x 4032 which is a 3:4 aspect ratio. The training images have a ratio of 4:3 and a size 800 x 600. The `prepare_img.py` script converts a folder of pngs in the original iPhone dimensions to 800 x 600. OpenCV is used to resize the image. Before resizing, the images are transposed (reflected across the top-left to bottom-right diagonal).
